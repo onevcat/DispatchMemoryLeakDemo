@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    private let testQueue: dispatch_queue_t = dispatch_queue_create("test_quese", DISPATCH_QUEUE_SERIAL)
+    private let testQueue: dispatch_queue_t = dispatch_queue_create("test_queue", DISPATCH_QUEUE_SERIAL)
     private var timer: NSTimer!
     
     override func viewDidLoad() {
